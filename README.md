@@ -1,18 +1,30 @@
-## Getting Started
+Sistema Logístico em Java
+Descrição
+Este é um sistema logístico simples desenvolvido em Java, com funcionalidades para gerenciar entregas, incluindo adicionar, listar, atualizar status, remover e salvar dados em arquivo. O projeto tem como objetivo proporcionar uma introdução à manipulação de listas, entrada de dados e persistência de informações em arquivos.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Funcionalidades
+Adicionar entrega: Registra uma nova entrega no sistema.
+Listar entregas: Exibe todas as entregas cadastradas.
+Atualizar status: Atualiza o status da entrega (pendente, em andamento, entregue).
+Remover entrega: Remove uma entrega com base no ID fornecido.
+Salvar em arquivo: Salva todas as entregas em um arquivo .txt para persistência.
+Como Usar
+Clone ou baixe o repositório:
 
-## Folder Structure
+Para clonar:
+bash
+Copy code
+git clone https://github.com/GustavoLibano/SistemaLogistico.git
+Execute o projeto:
 
-The workspace contains two folders by default, where:
+Abra o arquivo SistemaLogistico.java no seu IDE ou editor preferido.
+Compile e execute o programa para interagir com o sistema via console.
+Tecnologias Utilizadas
+Java: Linguagem de programação principal para o desenvolvimento do sistema.
+JDBC: Para manipulação de dados (se você decidir integrar com um banco de dados no futuro).
+Contribuições
+Se você deseja contribuir para este projeto, por favor, faça um fork, crie uma branch e envie um pull request.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Licença
+Este projeto está licenciado sob a licença MIT.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
