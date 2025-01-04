@@ -8,23 +8,19 @@ Listar entregas: Exibe todas as entregas cadastradas.
 Atualizar status: Atualiza o status da entrega (pendente, em andamento, entregue).
 Remover entrega: Remove uma entrega com base no ID fornecido.
 Salvar em arquivo: Salva todas as entregas em um arquivo .txt para persistência.
-Como Usar
+
+Como usar:
 Clone ou baixe o repositório:
-
 Para clonar:
-bash
-Copy code
-git clone https://github.com/GustavoLibano/SistemaLogistico.git
-Execute o projeto:
+https://github.com/GustavoLibano/SistemaLogistico.git
 
+Execute o projeto:
 Abra o arquivo SistemaLogistico.java no seu IDE ou editor preferido.
 Compile e execute o programa para interagir com o sistema via console.
+
 Tecnologias Utilizadas
 Java: Linguagem de programação principal para o desenvolvimento do sistema.
 JDBC: Para manipulação de dados (se você decidir integrar com um banco de dados no futuro).
-Contribuições
-Se você deseja contribuir para este projeto, por favor, faça um fork, crie uma branch e envie um pull request.
 
 Licença
 Este projeto está licenciado sob a licença MIT.
-
